@@ -1,0 +1,9 @@
+/* mobile device responsive is here */
+@media screen and (max-width:576px) {
+    .bar{
+        display: block;
+    }
+    .nav-options{
+        display: none;
+    }
+}
