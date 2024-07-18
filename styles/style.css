@@ -3,6 +3,7 @@
 /* font style */
 body{
     font-family: "Inter", sans-serif;
+    background-color: black;
 }
 
 /* universal style */
@@ -10,18 +11,39 @@ body{
     margin: o;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 /* shared styles */
 .flex{
     display: flex;
 }
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+h3{
+    color: white;
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border: none;
+    cursor: pointer;
+}
 
 /* nav styles starts here */
-.nav-container{
-    max-width: 1100px;
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding: 0.5rem o.5rem;
+}
+.header-container{
+    max-width: 95%;
     margin: 0 auto;
+}
+.nav-container{  
     justify-content: space-between;
     align-items: center;
 }
@@ -31,7 +53,6 @@ body{
     font-weight: 800;
 }
 .nav-options{
-    color: white;
     justify-content: flex-start;
     align-items: center;
     gap: 3rem;
@@ -39,6 +60,9 @@ body{
     border-radius: 3rem;
     padding: 0.1rem 0.5rem;
     cursor: pointer;
+}
+.nav-options>p{
+    color: white;
 }
 .span{
     background-color: rgb(230, 83, 60);
@@ -50,5 +74,42 @@ body{
     display: none;
     cursor: pointer;
 }
-
 /* nav styles ends here */
+
+/* banner styles starts from here */
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.banner-text-content{
+    max-width: 50%;
+    height: auto;
+}
+.banner-text-content>h1{
+    color: white;
+}
+.btn-secondary{
+    color: white;
+    border-radius: 2.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    background: transparent;
+}
+.banner-buttons{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.banner-img-content{
+    max-width: 50%;
+    height: auto;
+}
+.banner-img-content>img{
+    width: 100%;
+    height: auto;
+}
+/* banner styles ends here */
