@@ -6,4 +6,15 @@
     .nav-options{
         display: none;
     }
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text-content{
+        max-width: 100%;
+    }
+    .banner-img-content{
+        max-width: 100%;
+    }
 }
