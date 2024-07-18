@@ -21,7 +21,7 @@ body{
 p{
     color: rgba(255, 255, 255, 0.5);
 }
-h3{
+h1, h3, h4{
     color: white;
 }
 .btn-primary{
@@ -38,10 +38,9 @@ h3{
 /* nav styles starts here */
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    padding: 0.5rem o.5rem;
 }
 .header-container{
-    max-width: 95%;
+    max-width: 85%;
     margin: 0 auto;
 }
 .nav-container{  
@@ -54,12 +53,13 @@ header{
     font-weight: 800;
 }
 .nav-options{
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 3rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 3rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0rem 1rem;
     cursor: pointer;
 }
 .nav-options>p{
@@ -94,7 +94,7 @@ header{
 }
 .shape{
     font-family: 'Miama', sans-serif;
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 400;
 }
 .btn-secondary{
@@ -131,7 +131,7 @@ header{
     height: 6rem;
     position: absolute;
     top: 20%;
-    right: -10%;
+    right: -15%;
     cursor: pointer;
 }
 .five-hundred>h3{
@@ -148,10 +148,36 @@ header{
     align-items: center;
     position: absolute;
     top: 70%;
-    left: -30%;
+    left: -25%;
     cursor: pointer;
 }
-.circle-icon{
+.play-icon{
     color: rgb(230, 83, 60);
 }
 /* banner styles ends here */
+
+/* habit-section styles starts from here */
+.habit-setion-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: 4rem auto;
+}
+.habit-setion-container>div>h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.habit-section-content{
+    justify-content: space-evenly;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.habit-section-content>div>img{
+    border-radius: 7rem;
+    border: 3px solid rgba(133, 131, 131, 0.215);
+}
+/* habit-section styles ends here */
