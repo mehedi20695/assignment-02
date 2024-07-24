@@ -18,10 +18,10 @@ body{
 .flex{
     display: flex;
 }
-p{
+p, td{
     color: rgba(255, 255, 255, 0.5);
 }
-h1, h3, h4{
+h1, h3, h4, th{
     color: white;
 }
 .btn-primary{
@@ -181,3 +181,177 @@ header{
     border: 3px solid rgba(133, 131, 131, 0.215);
 }
 /* habit-section styles ends here */
+
+/* extra mile styles starts from here */
+.extra-mile-container{
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgba(133, 131, 131, 0.215);
+    border-radius: 1rem;
+    padding: 1rem 2rem 1rem 3rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.extra-mile-text-content{
+    max-width: 60%;
+}
+.extra-mile-text-content>h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.etra-mile-img-content{
+    max-width: 40%;
+}
+.etra-mile-img-content>img{
+    width: 100%;
+    border-radius: 1rem;
+}
+/* extra mile styles ends here */
+
+/* bmi styles starts from here */
+    .bmi-title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bmi-title>div>h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .bmi-calculator-container{
+        background-color: rgba(133, 131, 131, 0.215);
+        padding: 1.5rem;
+    }
+    .calculator-area{
+        width: 85%;
+        margin: 0 auto;
+    }
+    table, th, td {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-collapse: collapse;
+        padding: 0.5rem 3rem 0.5rem 1rem;
+        text-align: left;
+    }
+    th{
+        font-weight: 400;
+    }
+    .calculator-area{
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .row-one, .row-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+    .row-three{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    input{
+        border-radius: 0.5rem;
+        padding: 0.7rem;
+        background-color: rgba(133, 131, 131, 0.215);
+        border: none;
+    }
+    select{
+        border-radius: 0.5rem;
+        padding: 0.7rem;
+        background-color: rgba(133, 131, 131, 0.215);
+        color: rgba(255, 255, 255, 0.351);
+        border: none;
+        cursor: pointer;
+    }
+    option{
+        color: rgba(16, 14, 14, 0.5);
+    }
+/* bmi styles ends here */
+
+/* our team styles starts from here */
+.team-container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-title>h1{
+    font-size: 2rem;
+    font-weight: 800; 
+}
+.trainer-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: rgba(133, 131, 131, 0.215);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.trainer-info>div>img{
+    border-radius: 1rem;
+    width: 100%;
+    height: 300px;
+}
+.trainer-card{
+    position: relative;
+}
+.trainer{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.trainer>p{
+    margin-top: -1rem;
+}
+/* our team styles ends here */
+
+/* footer styles starts from here */
+.footer{
+    background-color: rgba(133, 131, 131, 0.215);
+    padding: 1.5rem;
+    margin-top: 4rem;
+}
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.footer-fitness-content>h1{
+    color: rgb(230, 83, 60);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: -1rem;
+}
+.get-started-content{
+    margin-left: 5rem
+}
+.get-started-content>p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.rights{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* footer styles ends here */

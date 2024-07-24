@@ -17,4 +17,46 @@
     .banner-img-content{
         max-width: 100%;
     }
+    .habit-section-content{
+        flex-direction: column;
+    }
+    .habit-setion-container{
+        margin: 0 auto;
+    }
+    .extra-mile-container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .extra-mile-text-content{
+        max-width: 100%;
+        margin-top: -2.5rem;
+    }
+    .etra-mile-img-content{
+        max-width: 100%;
+        margin-top: -2.5rem;
+    }
+    .extra-mile-text-content>button{
+        width: 100%;
+    }
+    .bmi-title{
+        width: 85%;
+        margin: 0 auto;
+        padding: 0.5rem;
+        align-items: flex-start;
+    }
+    .calculator-area{
+        flex-direction: column;
+    }
+    .bmi-calculator-container{
+        padding: 0.5rem;
+    }
+    .trainer-info, .footer-content{
+        grid-template-columns: 1fr;
+    }
+    .get-started-content{
+        margin-left: 0rem
+    }
+    .rights{
+        justify-content: flex-start;
+    }
 }
