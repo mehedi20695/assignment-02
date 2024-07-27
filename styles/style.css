@@ -94,8 +94,9 @@ header{
 }
 .shape{
     font-family: 'Miama', sans-serif;
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 400;
+    line-height: 0.1;
 }
 .btn-secondary{
     color: white;
@@ -194,20 +195,96 @@ header{
     gap: 4rem;
 }
 .extra-mile-text-content{
-    max-width: 60%;
+    max-width: 50%;
 }
 .extra-mile-text-content>h1{
     font-size: 2rem;
     font-weight: 800;
+    margin-bottom: 2rem;
+}
+.extra-mile-text-content>p{
+    margin-bottom: 3rem;
+}
+.extra-mile-text-content>button{
+    width: 15rem;
 }
 .etra-mile-img-content{
-    max-width: 40%;
+    max-width: 50%;
 }
 .etra-mile-img-content>img{
     width: 100%;
     border-radius: 1rem;
+    height: 312px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
 /* extra mile styles ends here */
+
+/* exercise styles starts from here */
+.exercise-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.exercise-title>div>h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.exercise-row-one{
+    display: grid;
+    grid-template-columns: 0.6fr 1.6fr 0.8fr;
+}
+.exercise-row-one>div>img, 
+.exercise-row-two>div>img{
+    width: 100%;
+    height: 220px;
+}
+.exercise-row-two{
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1fr;
+}
+.exercise-one, 
+.exercise-two, 
+.exercise-three, 
+.exercise-four, 
+.exercise-five, 
+.exercise-six{
+    position: relative;
+}
+.exercise-img-container>div>div>div>p{
+    color: rgb(230, 83, 60);
+}
+.exercise-one-name{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.exercise-two-name{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.exercise-three-name{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.exercise-four-name{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+.exercise-five-name{
+    position: absolute;
+    left: 60%;
+    top: 70%;
+}
+.exercise-six-name{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+/* exercise styles starts from here */
 
 /* bmi styles starts from here */
     .bmi-title{
@@ -220,7 +297,7 @@ header{
         font-weight: 800;
     }
     .bmi-calculator-container{
-        background-color: rgba(133, 131, 131, 0.215);
+        background-color: rgb(34, 34, 34);
         padding: 1.5rem;
     }
     .calculator-area{
@@ -268,7 +345,11 @@ header{
         cursor: pointer;
     }
     option{
-        color: rgba(16, 14, 14, 0.5);
+        color: black;
+    }
+    .calculator-option>button{
+        width: 15rem;
+        margin-bottom: 2rem;
     }
 /* bmi styles ends here */
 
@@ -289,16 +370,21 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    background-color: rgba(133, 131, 131, 0.215);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 1rem;
     border-radius: 1rem;
 }
 .trainer-info>div>img{
     border-radius: 1rem;
     width: 100%;
-    height: 300px;
+    height: 280px;
 }
-.trainer-card{
+.trainer-card-one, 
+.trainer-card-two, 
+.trainer-card-three,
+.trainer-card-four,
+.trainer-card-five,
+.trainer-card-six{
     position: relative;
 }
 .trainer{
@@ -314,9 +400,47 @@ header{
 }
 /* our team styles ends here */
 
+/* Unique-section styles starts from here */
+.unique-section-container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.unique-section-title>h1{
+    font-size: 2rem;
+    font-weight: 800; 
+}
+.unique-section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.unique-section-card{
+    border: 1px solid rgba(255, 255, 255, 0.46);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+}
+.unique-section-card>img{
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem;
+}
+/* Unique-section styles ends here */
+
 /* footer styles starts from here */
 .footer{
-    background-color: rgba(133, 131, 131, 0.215);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     margin-top: 4rem;
 }
@@ -345,7 +469,7 @@ header{
     cursor: pointer;
 }
 hr{
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .rights{
     justify-content: center;

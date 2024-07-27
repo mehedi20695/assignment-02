@@ -38,6 +38,15 @@
     .extra-mile-text-content>button{
         width: 100%;
     }
+    .exercise-row-one{
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+    .exercise-row-two{
+        grid-template-columns: 0.9fr 1.1fr;
+    }
+    .exercise-three, .exercise-six{
+        display: none;
+    }
     .bmi-title{
         width: 85%;
         margin: 0 auto;
@@ -50,9 +59,14 @@
     .bmi-calculator-container{
         padding: 0.5rem;
     }
-    .trainer-info, .footer-content{
+    .trainer-info, 
+    .unique-section-content,  
+    .footer-content{
         grid-template-columns: 1fr;
     }
+    /* .trainer-card-one, .trainer-card-four{
+        display: none;
+    } */
     .get-started-content{
         margin-left: 0rem
     }
