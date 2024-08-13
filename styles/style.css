@@ -167,7 +167,7 @@ header{
     align-items: center;
     text-align: center;
     width: 85%;
-    margin: 4rem auto;
+    margin: 0 auto;
 }
 .habit-setion-container>div>h1{
     font-size: 2rem;
@@ -196,6 +196,7 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     gap: 4rem;
+    margin-top: 3rem;
 }
 .extra-mile-text-content{
     max-width: 50%;
@@ -223,10 +224,14 @@ header{
 }
 /* extra mile styles ends here */
 
-/* Extra exercise styles starts from here */
+/* Extra-section styles starts from here */
 .exercise-container{
     width: 85%;
     margin: 0 auto;
+}
+.exercise-title{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .exercise-title>div>h1{
     font-size: 2rem;
@@ -290,13 +295,14 @@ header{
     top: 20%;
 }
 
-/* Extra exercise styles starts from here */
+/* Extra-section styles starts from here */
 
 /* bmi styles starts from here */
     .bmi-title{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 3rem;
     }
     .bmi-title>div>h1{
         font-size: 2rem;
@@ -377,6 +383,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+.team-title{
+    margin: 3rem;
+}
 .team-title>h1{
     font-size: 2rem;
     font-weight: 800; 
@@ -424,6 +433,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+.unique-section-title{
+    margin: 3rem;
+}
 .unique-section-title>h1{
     font-size: 2rem;
     font-weight: 800; 
@@ -456,7 +468,7 @@ header{
 .footer{
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .footer-container{
     width: 85%;
