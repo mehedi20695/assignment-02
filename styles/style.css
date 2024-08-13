@@ -168,6 +168,7 @@ header{
     text-align: center;
     width: 85%;
     margin: 0 auto;
+    margin-top: 3rem;
 }
 .habit-setion-container>div>h1{
     font-size: 2rem;
